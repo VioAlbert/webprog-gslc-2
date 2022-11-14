@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\TeamController;
+use App\Http\Controllers\TournamentsController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,21 +23,5 @@ Route::get('home', function () {
     return view('home');
 });
 
-Route::get('team', function () {
-    $team_data = [
-        "Vio Albert Ferdinand" => "Midlaner",
-        "Alan Watson" => "Gold laner",
-        "Bobby Atkins" => "Exp laner",
-        "Colton Walker" => "Jungler",
-        "Delta Smith" => "Roamer",
-        "Ester Welkins" => null
-    ];
-    return view('team')
-    ->with('team', $team_data);
-});
-
-Route::get('tournaments', function () {
-    $tourney = [];
-    return view('tournaments')
-    ->with('tourney_data', $tourney);
-});
+Route::get('team', [TeamController::class, 'index']);
+Route::get('tournaments', [TournamentsController::class, 'index']);

@@ -1,8 +1,10 @@
 # COMP6681001 GSLC 1 Assignment
 
-A website view using blade Conditional Rendering, Loop Rendering, and Reusable Component Tag.
+A website view made using Laravel 8.  This project is an assignment for Web Programming CMP6681001 GSLC.
 
-This project is an assignment for Web Programming CMP6681001 GSLC 1.
+[GSLC 1](https://github.com/VioAlbert/webprog-gslc-2/tree/1196934b8c2365982d54ea72f8650975bb529bbd): Added Blade Conditional Rendering, Loop Rendering, and Reusable Component Tag.
+
+GSLC 2 (current): Added Controller.
 
 ## Deployment (For Windows)
 

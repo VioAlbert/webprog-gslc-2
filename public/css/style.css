@@ -1,0 +1,7 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1477158340414-06e7a2c10ada?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+}
+
+.container-md {
+    background: rgba(255,255,255,0.8);
+}

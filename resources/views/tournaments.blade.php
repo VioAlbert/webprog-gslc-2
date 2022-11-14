@@ -5,7 +5,7 @@
 @section('content')
 <h2>Tournaments</h2>
 
-<table class="table table-hover">
+<table class="table table-hover table-bordered text-center">
     <thead>
         <tr>
             <th scope='col'>No.</th>

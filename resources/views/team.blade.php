@@ -7,7 +7,7 @@
 <h2>Meet our team</h2>
 
 <?php $count = 0 ?>
-<table class="table table-hover">
+<table class="table table-hover table-bordered text-center">
     <thead>
         <tr>
             <th scope='col'>No.</th>

@@ -5,9 +5,9 @@
 @section('content')
 <h2>Welcome!</h2>
 
-<p>This is a project made for Web Programming Course COMP6681001 GSLC 1</p>
+<p>This is a project made for Web Programming Course COMP6681001 GSLC.</p>
 
-<p>Try to visit our pages to see how the tables are built from data passed from <code>web.php</code> to our views</p>
+<p>Try to visit our pages to see how the tables are built from data passed from <code>web.php</code> to our views via controllers.</p>
 
 <h2>Authors</h2>
 
